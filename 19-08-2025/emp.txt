@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Student's Connect</title>
+    <style>
+        body {
+            background-color: #f40505;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        .header {
+            background-color:goldenrod;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .register-box {
+            width: 350px;
+            background-color:rgb(50, 240, 50);
+            padding: 20px;
+            border: 2px solid black;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .register-box h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .input-group {
+            margin: 10px 0;
+            text-align: left;
+        }
+        .input-group label {
+            display: block;
+            font-size: 16px;
+        }
+        .input-group input {
+            width: 90%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        .button-group {
+            margin-top: 10px;
+        }
+        .button-group button {
+            padding: 5px 15px;
+            margin: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .footer {
+            background-color: rgb(140, 13, 243);
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">Employee login</div>
+
+    <div class="register-box">
+        <h2>Employee login</h2>
+        <form>
+            <div class="input-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name">
+            </div>
+            <div class="input-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name">
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="button-group">
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
